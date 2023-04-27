@@ -1,0 +1,32 @@
+.NavBar__container{
+    width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   transition: 0.7s; 
+    padding: 1em;
+}
+.Scroll--Down{
+    background-color: rgba(251, 78, 82, .7);
+    box-shadow: 1em 0em 1em;
+
+}
+
+.Navbar__list{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: .5em;
+
+}
+.NavBar__Item{
+    font-weight: 600;
+    list-style: none;
+}
+.NavBar__Item:hover{
+    border-bottom: 1.5px solid #212121;
+}
+
+.NavBar__Item a{
+    text-decoration: none;
+}

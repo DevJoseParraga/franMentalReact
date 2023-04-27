@@ -1,0 +1,42 @@
+.SobreMi{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 178, 158, .5) ;
+    box-shadow: 1em 0em .5em;
+    margin-top: 5em;
+}
+
+.SobreMi__titulo{
+    font-family: PoetsenOne;
+    text-align: center;
+    border-bottom: 0.3px solid #212121;
+    padding-bottom: .5em;
+    margin-top: 2em;
+}
+
+.SobreMi__imgContainer{
+    width: 50%;
+    margin-top: 2em;
+   
+}
+
+.SobreMi__DescripContainer{
+    width: 50%;
+    margin-top: 1.5em;
+    margin-right: 10px;
+    
+}
+
+.SobreMi__Descripcion{
+    margin-top: 1.5em;
+}
+
+.SobreMi__img{
+    width: 80%;
+    height: 90%;
+    margin-left: 5em;
+    padding-bottom: 5px;
+    margin-top: 1.5em; 
+}

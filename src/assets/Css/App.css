@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Averia Sans Libre';
+  font-size: 1em;
+
+  color: #212121;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: PoetsenOne;
+  src: url("../poetsen_one/PoetsenOne-Regular.ttf");
+}
+body{
+  background-image: url(../multimedia/images/franmental/FondoFranmnetal-01.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
